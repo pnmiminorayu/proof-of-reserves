@@ -87,4 +87,4 @@ require (
 replace (
 	github.com/consensys/gnark => github.com/gatechain/gnark v0.7.1
 	github.com/consensys/gnark-crypto => github.com/gatechain/gnark-crypto v0.7.1
-)
+)docker run -d --name zk-mysql -p 3306:3306 -e MYSQL_USER=zkroot -e MYSQL_PASSWORD=zkpasswd -e MYSQL_DATABASE=zkpos  -e MYSQL_ROOT_PASSWORD=zkpasswd mysql
