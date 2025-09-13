@@ -1,0 +1,1 @@
+docker run -d --name zk-mysql -p 3306:3306 -e MYSQL_USER=zkroot -e MYSQL_PASSWORD=zkpasswd -e MYSQL_DATABASE=zkpos  -e MYSQL_ROOT_PASSWORD=zkpasswd mysql
